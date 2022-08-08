@@ -1,0 +1,109 @@
+header{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    max-height: 100%;
+}
+
+h1{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.texto{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    background-color: black;
+    font-size: 18px;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+nav .menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.menu li{
+    text-decoration: none;
+}
+
+.formulario, input, textarea{
+    width: 200px;
+    margin-left: 10px;
+}
+
+.redes i{
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    color: red;
+    text-decoration: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: red;
+}
+
+.checkbtn{
+    display: none;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 30px;
+    color: white;
+    cursor: pointer;
+}
+#check{
+    display: none;
+}
+
+.img_menu{
+    width: 100%;
+}
+
+.img-maps{
+    max-width: 100%;
+    margin: 10px;
+}
+
+.link-descarga{
+    text-align: center;
+}
+
+@media (max-width: 480px){
+    .checkbtn{
+        display: flex;
+        font-size: 18px;
+        border: none;
+        padding: 10px 20px;
+        padding-left: 30px;
+        color: white;
+        cursor: pointer;
+    }
+    nav .menu{
+        display: none;
+    }
+    .img-maps{
+        max-width: 350px;
+    }
+}
