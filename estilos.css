@@ -84,6 +84,11 @@ nav .menu{
     width: 100%;
 }
 
+.img-reserva{
+    max-width: 100%;
+    width: 900px;
+}
+
 .img-maps{
     max-width: 100%;
     margin: 10px;
@@ -93,7 +98,7 @@ nav .menu{
     text-align: center;
 }
 
-@media (max-width: 480px){
+@media (max-width: 620px){
     .checkbtn{
         display: flex;
         font-size: 18px;
@@ -107,7 +112,7 @@ nav .menu{
         display: none;
     }
     .img-maps{
-        max-width: 350px;
+        max-width: 100%;
     }
     .checkbtn:hover .menu-vertical{
         display: block;
@@ -115,5 +120,9 @@ nav .menu{
     .menu-vertical a{
     color: red;
     text-decoration: none;
+    }
+    .img-reserva{
+        width: 600px;
+        max-width: 100%;
     }
 }
