@@ -13,8 +13,7 @@ footer{
 
 h1{
     color: red;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .texto{
@@ -40,6 +39,10 @@ nav .menu{
     display: flex;
     justify-content: space-between;
     margin: 2rem;
+}
+
+.menu-vertical{
+    display: none;
 }
 
 .menu li{
@@ -105,5 +108,12 @@ nav .menu{
     }
     .img-maps{
         max-width: 350px;
+    }
+    .checkbtn:hover .menu-vertical{
+        display: block;
+    }
+    .menu-vertical a{
+    color: red;
+    text-decoration: none;
     }
 }
