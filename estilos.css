@@ -68,7 +68,7 @@ i{
     display: flex;
     margin: 10px;
     font-size: 30px;
-    color: red;
+    color: white;
     text-decoration: none;
 }
 
@@ -111,6 +111,18 @@ i{
 
 .link-descarga{
     text-align: center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+.bc-negro{
+    background-color: black;
+}
+
+.texto-blanco{
+    color: white;
 }
 
 @media (max-width: 620px){
