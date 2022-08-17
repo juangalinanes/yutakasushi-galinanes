@@ -1,13 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
     background-color: black;
-    padding: 0;
-    margin: 0;
 }
 
 footer{
     background-color: black;
-    padding: 0;
-    margin: 0;
     max-height: 100%;
 }
 
@@ -17,6 +19,15 @@ footer{
     color: red;
     background-color: black;
     font-size: 18px;
+}
+
+.texto h2{
+    padding-top: 5rem;
+}
+
+.texto p{
+    margin-bottom: unset;
+    padding: 2rem;
 }
 
 .menu li{
@@ -32,6 +43,8 @@ footer{
     display: flex;
     justify-content: center;
     text-decoration: none;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
 }
 
 .logo h1{
@@ -48,7 +61,7 @@ footer{
 nav .menu{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin: 0;
 }
 
 .menu-vertical{
@@ -102,6 +115,7 @@ i{
 .img-reserva{
     max-width: 100%;
     width: 900px;
+    padding-top: 2rem;
 }
 
 .img-maps{
