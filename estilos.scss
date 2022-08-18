@@ -1,0 +1,187 @@
+$rojo: red;
+$negro: black;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: $negro;
+}
+
+footer{
+    background-color: $negro;
+    max-height: 100%;
+}
+
+.texto{
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+    color: $rojo;
+    background-color: $negro;
+    font-size: 18px;
+    h2{
+        padding-top: 5rem;
+    }
+    p{
+        margin-bottom: unset;
+        padding: 2rem;
+    }
+}
+
+.menu{
+    li{
+        list-style: none;
+        text-decoration: none;
+        &:hover{
+            transform: scale(1.25,1.25);
+        }
+    }
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+    h1{
+        color: $rojo;
+        font-family: 'Josefin Sans', sans-serif;
+        &:hover{
+            color: white;
+            justify-content: center;
+            transform: scale(1.25,1.25);
+        }
+    }
+}
+
+nav{
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+}
+
+.menu-vertical{
+    display: none;
+}
+
+.menu{
+    li{
+        text-decoration: none;
+    }
+}
+
+.formulario, input, textarea{
+    width: 200px;
+    margin-left: 10px;
+}
+
+i{
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu{
+    li{
+        a{
+            text-decoration: none;
+            color: $rojo;
+            &:hover{
+                color: white;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+.checkbtn{
+    display: none;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#check{
+    display: none;
+}
+
+.img_menu{
+    width: 100%;
+}
+
+.img-reserva{
+    max-width: 100%;
+    width: 900px;
+    padding-top: 2rem;
+}
+
+.img-maps{
+    max-width: 100%;
+    margin: 10px;
+}
+
+.link-descarga{
+    text-align: center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.bc-negro{
+    background-color: $negro;
+}
+
+.texto-blanco{
+    color: white;
+}
+
+@media (max-width: 620px){
+    .checkbtn{
+        display: flex;
+        font-size: 18px;
+        border: none;
+        padding: 10px 20px;
+        padding-left: 30px;
+        color: white;
+        cursor: pointer;
+    }
+    nav{
+        .menu{
+            display: none;
+        }
+    }
+    .img-maps{
+        max-width: 100%;
+    }
+    .checkbtn{
+        &:hover{
+            .menu-vertical{
+                display: block;
+            }
+        }
+    }
+    .menu-vertical {
+        list-style: none;
+        a {
+            color: $rojo;
+            text-decoration: none;
+        }
+    }
+    .img-reserva {
+        width: 600px;
+        max-width: 100%;
+    }
+}
