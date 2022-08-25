@@ -1,5 +1,9 @@
 $rojo: red;
 $negro: black;
+@mixin imagen {
+    max-width: 100%;
+    width: 700px;
+}
 
 *{
     margin: 0;
@@ -122,13 +126,8 @@ i{
 }
 
 .img-reserva{
-    max-width: 100%;
-    width: 700px;
+    @include imagen();
     padding-top: 2rem;
-}
-
-.img-maps{
-    justify-content: center;
 }
 
 .link-descarga{
@@ -152,7 +151,7 @@ i{
     position: relative;
     overflow: hidden;
     width: 100%;
-    padding-top: 100%;
+    padding-top: 66.66%;
     iframe{
         position: absolute;
         top: 0;

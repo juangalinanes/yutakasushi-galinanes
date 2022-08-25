@@ -92,9 +92,6 @@ i {
   width: 700px;
   padding-top: 2rem; }
 
-.img-maps {
-  justify-content: center; }
-
 .link-descarga {
   text-align: center; }
 
@@ -112,7 +109,7 @@ i {
   position: relative;
   overflow: hidden;
   width: 100%;
-  padding-top: 100%; }
+  padding-top: 66.66%; }
   .contenedor-frame iframe {
     position: absolute;
     top: 0;
