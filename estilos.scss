@@ -163,6 +163,10 @@ i{
     }
 }
 
+.carousel-inner img{
+    height: 700px;
+}
+
 @media (max-width: 620px){
     .checkbtn{
         display: flex;
